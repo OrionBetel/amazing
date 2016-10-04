@@ -117,7 +117,7 @@ h1, h2, h3, p {
 .instagram {
   position: relative;
   margin-top: -4px;
-  height: 516px;
+  /*height: 516px;*/
   background-color: #3f729b;
   color: #f9f9f9;
 }
@@ -137,6 +137,7 @@ h1, h2, h3, p {
 }
 
 .instagram button {
+  margin-bottom: 97px;
   background-color: #3f729b;
 }
 
@@ -432,4 +433,52 @@ h1, h2, h3, p {
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+  .about {
+    background-position: -125px 0;
+  }
+
+  .photos img {
+    width: 25%;
+    height: auto;
+  }
+
+  .instagram h3 {
+    padding-top: 75px;
+  }
+
+  .instagram p {
+    font-size: 28px;
+  }
+
+  .instagram button {
+    margin-bottom: 89px;
+  }
+
+  .instagram img {
+    left: 675px;
+    height: auto;
+    width: 337.25px;
+  }
+
+  .video::before {
+    width: 337.5px;
+  }
+
+  .video-item {
+    left: 338px;
+    width: 337px;
+  }
+
+  .spotify,
+  .itunes {
+    width: 50%;
+  }
+
+  .spotify p,
+  .itunes p {
+    font-size: 32px;
+  }
 }
