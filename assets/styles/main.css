@@ -1,0 +1,435 @@
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9f9f9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.hero .container {
+  padding-top: 90px;
+}
+
+.hero {
+  height: 900px;
+  background: url(../images/blue-corner.png) no-repeat 100% 0,
+              url(../images/hero.jpg) center/cover #fff;
+}
+
+.header {
+  margin-bottom: 55px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  float: left;
+}
+
+.header img {
+  float: right;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.menu {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 200;
+  float: right;
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.hero h1 {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.hero h2 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+}
+
+
+.about {
+  background: url(../images/skier-red.jpg) no-repeat #f3f1ef;
+}
+
+.about-content {
+  margin-left: 645px;
+}
+
+.about h3,
+.about p {
+  color: #666;
+  margin: 0;
+}
+
+.about h3 {
+  padding-top: 110px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.about p {
+  font-size: 36px;
+  font-weight: 200;
+  padding-bottom: 125px;
+}
+
+.instagram {
+  position: relative;
+  margin-top: -4px;
+  height: 516px;
+  background-color: #3f729b;
+  color: #f9f9f9;
+}
+
+.instagram h3 {
+  padding-top: 120px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.instagram p {
+  width: 550px;
+  padding: 40px 0;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.instagram button {
+  background-color: #3f729b;
+}
+
+.instagram button:hover {
+  background-color: #f9f9f9;
+  color: #3f729b;
+}
+
+.instagram img {
+  position: absolute;
+  left: 800px;
+  top: 0;
+  display: block;
+}
+
+.video {
+  position: relative;
+  height: 898px;
+  background: url(../images/dj.jpg) no-repeat;
+}
+
+.video::before {
+  content: '';
+  display: inline-block;
+  width: 400px;
+  height: 898px;
+  background-color: #282b2f;
+}
+
+.video-item {
+  position: absolute;
+  left: 400px;
+  top: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 400px;
+  height: 500px;
+  padding: 130px 55px 90px;
+  background-color: #212227;
+}
+
+.video-item h3 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #2ebd59;
+  text-transform: uppercase;
+}
+
+.video-item h3 span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video-item p {
+  margin-bottom: 45px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f9f9f9;
+}
+
+.video-item button {
+  background-color: #212227;
+  color: #2ebd59;
+  letter-spacing: -.25px;
+}
+
+.video-item button:hover {
+  background-color: #2ebd59;
+  color: #212227;
+}
+
+.spotify,
+.itunes {
+  display: inline-block;
+  width: 800px;
+  height: 515px;
+  color: #f9f9f9;
+}
+
+.spotify .container {
+  margin-left: 210px;
+  width: 490px;
+}
+
+.itunes .container {
+  margin-left: 60px;
+  width: 500px;
+}
+
+.spotify h3,
+.itunes h3 {
+  padding-top: 135px;
+  padding-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.spotify p,
+.itunes p {
+  padding-bottom: 25px;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -.25px;
+}
+
+.spotify,
+.spotify button {
+  background-color: #2ebd59;
+}
+
+.itunes,
+.itunes button {
+  background-color: #282b2f;
+}
+
+
+.footer {
+  margin-top: -1px;
+  padding: 100px 0;
+  background-color: #212227;
+}
+
+.footer .container {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 400px;
+}
+
+.footer section {
+  margin-right: 120px;
+}
+
+.footer section:last-child,
+.footer section:nth-last-child(2) {
+  margin-right: 0;
+}
+
+.footer h3 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: lighter;;
+  line-height: 21px;
+  color: #919191;
+}
+
+.footer .summary {
+  width: 280px;
+}
+
+.footer .summary p:last-child {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.footer .contact,
+.footer .socials {
+  width: 180px;
+}
+
+.footer .contact a {
+  color: #919191;
+  text-decoration: none;
+}
+
+.footer .contact a:hover {
+  text-decoration: underline;
+}
+
+.footer .socials {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+.footer .socials a {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #919191;
+  text-decoration: none;
+}
+
+.footer .socials a:hover {
+  text-decoration: underline;
+}
+
+.footer .socials .fa {
+  width: 25px;
+}
+
+.footer .socials span {
+  text-transform: uppercase;
+}
+
+.footer .subscription {
+  width: 480px;
+}
+
+.footer .subscription p {
+  margin-bottom: 13px;
+}
+
+.footer .subscription form {
+  margin-bottom: 70px;
+}
+
+.footer input[type=email] {
+  box-sizing: border-box;
+  width: 430px;
+  padding: 21.5px;
+  border: none;
+  background-color: #4d4e52;
+  outline: none;
+}
+
+.footer input[type=email]::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 21;
+  font-weight: bold;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer input[type=email]::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 21;
+  font-weight: bold;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer input[type=email]:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 21;
+  font-weight: bold;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer input[type=email]::-moz-placeholder {
+  font-size: 14px;
+  line-height: 21;
+  font-weight: bold;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer input[type=email]::placeholder {
+  font-size: 14px;
+  line-height: 21;
+  font-weight: bold;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer input[type=image] {
+  margin-left: -5px;
+  vertical-align: bottom;
+}
+
+.footer input[type=image]:hover {
+  cursor: pointer;
+}
+
+.footer .sponsors {
+  position: absolute;
+  right: 100px;
+  top: 240px;
+  width: 380px;
+}
+
+.footer .sponsors .sponsor {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+  font: bold 12px 'Lato', Arial, Helvetica, sans-serif;
+  color: #f2f7fb;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}

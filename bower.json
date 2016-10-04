@@ -1,0 +1,21 @@
+{
+  "name": "amazing",
+  "description": "A training landing page",
+  "main": "index.html",
+  "keywords": [
+    "none"
+  ],
+  "authors": [
+    "OrionBetel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
