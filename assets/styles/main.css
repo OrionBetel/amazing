@@ -398,13 +398,13 @@ h1, h2, h3, p {
   text-transform: uppercase;
 }
 
-.footer input[type=email]::placeholder {
+/*.footer input[type=email]::placeholder {
   font-size: 14px;
   line-height: 21;
   font-weight: bold;
   color: #919191;
   text-transform: uppercase;
-}
+}*/
 
 .footer input[type=image] {
   margin-left: -5px;
